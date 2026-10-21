@@ -1,7 +1,7 @@
 admin menu password is "password" btw
 
 GitHub Pages Game Link (USE IF POSSIBLE):
-https://link here
+https://stardustfoxcoon.github.io/Gambling-Simulator/
 
 Netlify Game Link (USE FOR SCHOOL SPYWARE BYPASS):
-https://link here
+https://gblsim.netlify.app
