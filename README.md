@@ -1,4 +1,4 @@
-admin password is "password" btw
+admin menu password is "password" btw
 
 GitHub Pages Game Link (USE IF POSSIBLE):
 https://link here
