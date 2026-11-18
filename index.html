@@ -20,7 +20,9 @@ function playBGM() {
 function stopBGM() {
 	music.Pause();
   	music.currentTime = 0;
-}</script><tw-tag name="r" color="green"></tw-tag><tw-passagedata pid="1" name="Bad Run" tags="" position="550,450" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[***(text-style:&quot;underline&quot;)[ㅤRUN RESULTSㅤ]***
+}
+	playBGM();
+</script><tw-tag name="r" color="green"></tw-tag><tw-passagedata pid="1" name="Bad Run" tags="" position="550,450" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[***(text-style:&quot;underline&quot;)[ㅤRUN RESULTSㅤ]***
 you literally lost money
 how did you manage to do this badly
 you literally started with $100 dude, how did you end with $$money after (if:$rounds is 1)[a single bet-](else:)[$rounds bets-]
@@ -1920,6 +1922,16 @@ odd	 (3–37)	:	red
 ]](stop:)]
 ]</tw-passagedata><tw-passagedata pid="10" name="Start Screen" tags="" position="275,100" size="100,100">(enchant:?passage,(b4r:&quot;dotted&quot;)+(b4r-size:20)+(b4r-colour:#ffba00))(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[{
 &lt;script&gt;
+	const music = document.getElementById('amazing-menu-music');
+
+function playBGM() {
+	music.Play();
+}
+function stopBGM() {
+	music.Pause();
+  	music.currentTime = 0;
+}
+	playBGM();
 	playBGM();
 &lt;/script&gt;
 }
