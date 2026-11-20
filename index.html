@@ -12,16 +12,7 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play gblsim release v1.1.4.</tw-noscript></noscript></tw-story>
 <tw-storydata name="gblsim release v1.1.4" startnode="7" creator="Twine" creator-version="2.12.1" format="Harlowe" format-version="3.3.9" ifid="A01EE51A-0896-4F4D-A7B5-A6480CCE5D29" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar {
   display: none;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">const music = document.getElementById('amazing-menu-music');
-
-function playBGM() {
-	music.Play();
-}
-function stopBGM() {
-	music.Pause();
-  	music.currentTime = 0;
-}
-	playBGM();
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 </script><tw-tag name="r" color="green"></tw-tag><tw-passagedata pid="1" name="Bad Run" tags="" position="550,450" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[***(text-style:&quot;underline&quot;)[ㅤRUN RESULTSㅤ]***
 you literally lost money
 how did you manage to do this badly
@@ -1922,17 +1913,10 @@ odd	 (3–37)	:	red
 ]](stop:)]
 ]</tw-passagedata><tw-passagedata pid="10" name="Start Screen" tags="" position="275,100" size="100,100">(enchant:?passage,(b4r:&quot;dotted&quot;)+(b4r-size:20)+(b4r-colour:#ffba00))(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[{
 &lt;script&gt;
-	const music = document.getElementById('amazing-menu-music');
-
-function playBGM() {
-	music.Play();
-}
-function stopBGM() {
-	music.Pause();
-  	music.currentTime = 0;
-}
-	playBGM();
-	playBGM();
+<audio autoplay loop preload="auto">
+    <source src="audio/banger-music.m4a" type="audio/mp4" />
+    yeah cuh sorry, yo' browser don't support m4a or smth
+</audio>
 &lt;/script&gt;
 }
 	(size:1.8)[***GAMBLING SIMULATOR ***]
@@ -2067,9 +2051,6 @@ help this took so long]
 		(set:$TEnum to 0)
         (set:$cTeams to (a:))
         (set:$cTeamVal to (a:))
-         &lt;script&gt;
-		stopBGM();
-	&lt;/script&gt;
     	(go-to:&quot;Game Select&quot;)
 	]]
 (text-size:0.1)[*`*`i am not responsible for any addictions caused by this game*]
